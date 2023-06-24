@@ -4,7 +4,7 @@ import math
 
 def put_text(frame, text):
     return cv.putText(
-        frame, text, (100, 100), cv.FONT_HERSHEY_PLAIN, 5, (0, 0, 255), 10, bottomLeftOrigin=False)
+        frame, text, (100, 100), cv.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 3, bottomLeftOrigin=False)
 
 
 def get_center_point(image_shape):
